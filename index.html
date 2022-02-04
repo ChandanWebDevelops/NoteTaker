@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #83c9d9a1;padding-bottom: 60px;">
+    <div class="nav">
+        <div class="zxw">
+            <span>Note Taker</span>
+            <span id="TriBar">&#8801</span>
+        </div>
+        <!-- <div class="searchBar"></div> -->
+        <div class="right">
+            <input type="search" id="search" placeholder="Search with Note title" onkeyup="search()">
+            <button id="Add" onclick="document.getElementById('id01').style.display='block'">Add Note</button>
+        </div>
+    </div>
+    <div id="id01" class="modal">
+        <center>
+            <div id="form">
+                <h1>Add Note</h1>
+                <input type="text" id="title" placeholder="Type a title" >
+                <textarea id="description" placeholder="Write something about it"></textarea>
+                <div class="hjk">
+                    <input type="button" id="update22" value="Update">
+                    <input type="button" id="Add1" value="Add">
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <div class="NoteCollection">
+        <div class="collectedNotes">
+            <div id="ans">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
+
+
