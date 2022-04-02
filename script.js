@@ -69,11 +69,9 @@ window.onclick = function (event) {
 }
 
 
-setTimeout(() => {
-    alert("Welcome to this website. This website is not any database system to store your data. This website will store your data in your own computer's local storage. So, there is no store of data. Please donot type your password in this website. Now you can use this web application. Thank you ")
-}, 3000);
 
-clearTimeout();
+
+
 
 
 document.getElementById("TriBar").addEventListener("click", function () {
