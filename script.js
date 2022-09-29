@@ -3,7 +3,7 @@
 if (localStorage.length == 0) {
     ans = document.getElementById("ans");
 
-    ans.style = "background-color:#b0dce7;"
+    ans.style = "background-color:#253c36a1;"
     h1 = document.createElement("h1");
     h1.innerHTML = "<center><span style='font-family: sans-serif;'>No note is added!</span></center>";
     ans.appendChild(h1);
