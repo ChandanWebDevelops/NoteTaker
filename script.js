@@ -5,7 +5,7 @@ if (localStorage.length == 0) {
 
     ans.style = "background-color:#253c36a1;"
     h1 = document.createElement("h1");
-    h1.innerHTML = "<center><span style='font-family: 'Mali', cursive;'>No note is added!</span></center>";
+    h1.innerHTML = `<center><span style="font-family: 'Mali', cursive;">No note is added!</span></center>`;
     ans.appendChild(h1);
 } else {
     for (let i = 0; i < localStorage.length; i++) {
